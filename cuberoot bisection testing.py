@@ -21,12 +21,11 @@ def cuberoot2(cube):
             low = guess
         else:
             high = guess
-            
         guess = (low + high)/2
         numGuess += 1
 
-    print('num_guesses=', numGuess)
-    print(guess, 'is close to the cube root of', cube)
+    print("number of iteration =", numGuess)
+    print(guess, "is close to the cube root of", cube)
     return numGuess and guess and cube
 
 #For cube root of 0 to 1
@@ -45,8 +44,8 @@ def cuberoot1(cube):
         guess = (low + high)/2
         numGuess += 1
 
-    print('num_guesses=', numGuess)
-    print(guess, 'is close to the cube root of', cube)
+    print("number of iteration =", numGuess)
+    print(guess, "is close to the cube root of", cube)
     return numGuess and guess and cube
 
 #For cube root less than -1
@@ -65,8 +64,8 @@ def cuberootneg2(cube):
         guess = (low + high)/2
         numGuess += 1
 
-    print('num_guesses=', numGuess)
-    print(guess, 'is close to the cube root of', cube)
+    print("number of iteration = ", numGuess)
+    print(guess, "is close to the cube root of", cube)
     return numGuess and guess and cube
 
 #For cube root from -1 to 0
@@ -82,11 +81,11 @@ def cuberootneg1(cube):
             low = guess
         else:
             high = guess
-            guess = (low + high)/2
-            numGuess += 1
+        guess = (low + high)/2
+        numGuess += 1
 
-    print('num_guesses=', numGuess)
-    print(guess, 'is close to the cube root of', cube)
+    print("number of iteration =", numGuess)
+    print(guess, "is close to the cube root of", cube)
     return numGuess and guess and cube
 
 
